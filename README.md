@@ -5,7 +5,7 @@
 
 ## Description
 
-The task is to use a limited version of the openly available Lending Club dataset (provided download link: [The dataset](https://drive.google.com/file/d/1DnClwbF4OUPS_DCJHJqWmJsNARS8Rfkl/view?usp=sharing)) and create a full (but simple) modeling and validation pipeline, using the algorithms and processing steps of your choosing. 
+The task is to use a limited version of the openly available Lending Club dataset (provided download link: [The dataset](https://drive.google.com/file/d/1DnClwbF4OUPS_DCJHJqWmJsNARS8Rfkl/view?usp=sharing)) and create a full (but simple) modeling and validation pipeline, using the algorithms and processing steps of your choosing.
 
 The dataset contains information about loan applicants and application-related data. The column to be predicted is called `bad_loan`, and is a binary indicator of whether or not the loan was repaid on time. Focus on the main tasks below, and if time, ambition and your knowledge allows, try attempting one or more of the *additional tasks*.
 
@@ -22,7 +22,7 @@ As of programming language, Python is preferred, but R is accepted too.
 
 3. Select variables (based on intuition, as preprocessing or with a importance metrics wrt a modeling technique)
 
-4. Train a model (Suggestion: A Tree-ensemble model such as XGB/LightGBM/Catboost or Neural network)
+4. Train a model (Choose a method/architecture you find suitable)
 
 5. Validate the model performance with regard to predictive performance and generalizability. You’re free to choose metrics you find relevant for this particular task.
 
@@ -40,7 +40,7 @@ As of programming language, Python is preferred, but R is accepted too.
 
 4. Reason around target leaks and whether the feature really was known at the time of the application.
 
-5. Use *Shap* or similar external feature importance package, for feature exploration and selection.
+5. Perform a feature attribution and interaction analysis.
 
 
 
