@@ -7,7 +7,7 @@
 
 The task is to use a limited version of the openly available Lending Club dataset (provided download link: [The dataset](https://drive.google.com/file/d/1DnClwbF4OUPS_DCJHJqWmJsNARS8Rfkl/view?usp=sharing)) and create a full (but simple) modeling and validation pipeline, using the algorithms and processing steps of your choosing.
 
-The dataset contains information about loan applicants and application-related data. The column to be predicted is called `bad_loan`, and is a binary indicator of whether or not the loan was repaid on time. Focus on the main tasks below, and if time, ambition and your knowledge allows, try attempting one or more of the *additional tasks*.
+The dataset contains information about loan applicants and application-related data. The column to be predicted is called `bad_loan`, and is a binary indicator of whether or not the loan was repaid on time. Focus on the main tasks below, and if time, ambition and your knowledge allows, try attempting one or more of the *optional tasks*.
 
 There are various data types present in the dataset and it is up to you to select variables to use and encoding them properly. Free text fields, for instance, may be omitted altogether or used and analysed with a proper embedding.
 
@@ -29,7 +29,7 @@ As of programming language, Python is preferred, but R is accepted too.
 6. Present code, descriptive analysis and model performance (For instance in a Jupyter notebook).
 
 
-## Additional tasks
+## Optional tasks
 
 
 1. Include the text columns and see how they affect the model performance. Use a sentence or word encoder. Maybe the text fields need some additional preprocessing.
